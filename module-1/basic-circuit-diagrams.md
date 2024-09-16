@@ -8,7 +8,7 @@
 
 ![](assets/20240913_184914_5_one_way_light_circuit_incorporating_a_junction_box.png)
 
-![](20240913_184914_6_intermediate_switch_controlling_1_light__loop_in_loop_out_3_plate.png)
+![](assets/20240913_184914_6_intermediate_switch_controlling_1_light__loop_in_loop_out_3_plate.png)
 
 ![](assets/20240913_184914_7_two_way_light_circuit_incorporating_a_junction_box.png)
 
