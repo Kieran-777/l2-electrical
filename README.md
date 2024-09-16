@@ -1,4 +1,4 @@
-# l2-electrical
+# L2-electrical
 
 [Module 1 - Practical](https://github.com/Kieran-777/l2-electrical/blob/main/module-1/module-1-practical.md)
 
