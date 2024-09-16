@@ -1,16 +1,6 @@
-**Practical**
+# Module 1 - Practical
 
-Ohms Law
-
-V = I * R
-
-Current = I = Amps
-
-Voltage = V = Volts
-
-Resistance = Ω = Ohms
-
-**Practical**
+**Week 1** - 05/09/24
 
 Wired up a plug socket with twin & earth cable.
 
@@ -27,7 +17,7 @@ Trying my hand with Qelectrotech schimatics.
 ![](assets/20240909_122253_1_first_install.png)
 
 
-Week 2 - 12/09/24
+**Week 2** - 12/09/24
 
 Installs
 
