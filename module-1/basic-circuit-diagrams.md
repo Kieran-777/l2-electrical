@@ -1,14 +1,14 @@
-![](assets/20240913_184914_1_1_way_switch_controlling_2_lights__loop_in).png)
+![](assets/20240913_184914_1_1_way_switch_controlling_2_lights__loop_in.png)
 
 ![](assets/20240913_184914_2_2_way_switch_circuit_controlling_a_3_plate__loop_in,_light_circuit.png)
 
 ![](assets/20240913_184914_3_one_way__loop_in,_3_plate_light_circuit.png)
 
-![](assets/20240913_184914_4_2_x_1_way_switches_controlling_2_lights__loop_in,_loop_out_3_plate).png)
+![](assets/20240913_184914_4_2_x_1_way_switches_controlling_2_lights__loop_in,_loop_out_3_plate.png)
 
 ![](assets/20240913_184914_5_one_way_light_circuit_incorporating_a_junction_box.png)
 
-![](assets/20240913_184914_6_intermediate_switch_controlling_1_light__loop_in,_loop_out,_3_plate).png)
+![](20240913_184914_6_intermediate_switch_controlling_1_light__loop_in_loop_out_3_plate.png)
 
 ![](assets/20240913_184914_7_two_way_light_circuit_incorporating_a_junction_box.png)
 
