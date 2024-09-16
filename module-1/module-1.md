@@ -1,4 +1,4 @@
-Day 01 - 05/08/24
+Week 01 - 05/08/24
 
 **Theory**
 
@@ -28,9 +28,10 @@ Trying my hand with Qelectrotech schimatics.
 
 ![](assets/20240909_122253_1_first_install.png)
 
-12/09/24 - Theory
 
-12/09/24 - Practical
+Week 2 - 12/09/24
+
+Installs
 
 ![](assets/20240912_134231_IMG_20240912_123752_279.jpg)
 
