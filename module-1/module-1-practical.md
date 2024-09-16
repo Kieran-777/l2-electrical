@@ -1,6 +1,4 @@
-Week 01 - 05/08/24
-
-**Theory**
+**Practical**
 
 Ohms Law
 
