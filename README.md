@@ -9,6 +9,8 @@
 
 [Module 1 - Basic Circuits](https://github.com/Kieran-777/l2-electrical/blob/main/module-1/basic-circuit-diagrams.md)
 
+[Module 1 - Brief to Install](https://github.com/Kieran-777/l2-electrical/blob/main/module-1/module-1-brief-to-install.md)
+
 
 # Extra Stuff
 
