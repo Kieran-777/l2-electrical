@@ -1,177 +1,177 @@
 <project title="l2-electrical-misc" version="0.100.0">
     <properties>
-        <property name="savedtime" show="1">19:14</property>
-        <property name="saveddate-us" show="1">2024-09-26</property>
-        <property name="savedfilename" show="1">l2-misc</property>
-        <property name="savedfilepath" show="1">/home/genu/Documents/l2-electrical/module-1/wiring-diagrams/l2-misc</property>
-        <property name="saveddate" show="1">26/09/2024</property>
-        <property name="saveddate-eu" show="1">26-09-2024</property>
+        <property show="1" name="saveddate-eu">04-10-2024</property>
+        <property show="1" name="savedfilepath">/home/genu/Documents/l2-electrical/module-1/wiring-diagrams/l2-misc</property>
+        <property show="1" name="saveddate-us">2024-10-04</property>
+        <property show="1" name="savedtime">15:56</property>
+        <property show="1" name="saveddate">04/10/2024</property>
+        <property show="1" name="savedfilename">l2-misc</property>
     </properties>
     <newdiagrams>
-        <border displayrows="true" displaycols="true" rows="8" rowsize="80" colsize="60" cols="17"/>
-        <inset title="" date="null" displayAt="bottom" indexrev="" version="" folio="%id/%total" auto_page_num="Create an auto folio numbering" author="Kieran Sullivan" filename="" locmach="" plant=""/>
-        <conductors bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" formula="" bus="" numsize="7" cable="" conductor_color="" onetextperfolio="0" vertical-alignment="AlignRight" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" conductor_section="" color="#dd3939" condsize="3" type="multi" num="_" horizrotatetext="0"/>
+        <border displaycols="true" rowsize="80" rows="8" displayrows="true" colsize="60" cols="17"/>
+        <inset author="Kieran Sullivan" auto_page_num="Create an auto folio numbering" folio="%id/%total" date="null" title="" indexrev="" plant="" locmach="" version="" displayAt="bottom" filename=""/>
+        <conductors color2="#000000" vertical-alignment="AlignRight" bicolor="false" horizontal-alignment="AlignBottom" displaytext="1" function="" conductor_color="" conductor_section="" type="multi" cable="" num="_" text_color="#000000" dash-size="2" condsize="3" vertirotatetext="270" formula="" horizrotatetext="0" tension_protocol="" color="#dd3939" bus="" numsize="7" onetextperfolio="0"/>
         <report label="%f-%l%c"/>
         <xrefs>
-            <xref type="coil" switchprefix="" offset="40" showpowerctc="true" delayprefix="" displayhas="cross" snapto="label" xrefpos="AlignTop" master_label="%f-%l%c" powerprefix="" slave_label="(%f-%l%c)"/>
-            <xref type="commutator" switchprefix="" offset="0" showpowerctc="true" delayprefix="" displayhas="cross" snapto="label" xrefpos="" master_label="%f-%l%c" powerprefix="" slave_label="(%f-%l%c)"/>
-            <xref type="protection" switchprefix="" offset="0" showpowerctc="true" delayprefix="" displayhas="cross" snapto="label" xrefpos="" master_label="%f-%l%c" powerprefix="" slave_label="(%f-%l%c)"/>
+            <xref switchprefix="" offset="40" showpowerctc="true" xrefpos="AlignTop" master_label="%f-%l%c" snapto="label" delayprefix="" type="coil" slave_label="(%f-%l%c)" displayhas="cross" powerprefix=""/>
+            <xref switchprefix="" offset="0" showpowerctc="true" xrefpos="" master_label="%f-%l%c" snapto="label" delayprefix="" type="commutator" slave_label="(%f-%l%c)" displayhas="cross" powerprefix=""/>
+            <xref switchprefix="" offset="0" showpowerctc="true" xrefpos="" master_label="%f-%l%c" snapto="label" delayprefix="" type="protection" slave_label="(%f-%l%c)" displayhas="cross" powerprefix=""/>
         </xrefs>
         <conductors_autonums current_autonum="" freeze_new_conductors="false"/>
         <folio_autonums/>
-        <element_autonums current_autonum="" freeze_new_elements="false"/>
+        <element_autonums freeze_new_elements="false" current_autonum=""/>
     </newdiagrams>
-    <diagram displayAt="bottom" rows="8" folio="%id/%total" displayrows="true" height="660" cols="17" auto_page_num="Create an auto folio numbering" date="20240926" version="0.100.0-dev" displaycols="true" title="From Brief - Wiring Diagram" rowsize="80" filename="" plant="" colsize="60" freezeNewConductor="false" order="1" locmach="" freezeNewElement="false" indexrev="" author="Kieran Sullivan">
-        <defaultconductor bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" formula="" bus="" numsize="7" cable="" conductor_color="" onetextperfolio="0" vertical-alignment="AlignRight" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" conductor_section="" condsize="1" type="multi" num="_" horizrotatetext="0"/>
+    <diagram displaycols="true" displayrows="true" locmach="" cols="17" title="From Brief - Wiring Diagram" height="660" indexrev="" freezeNewElement="false" version="0.100.0-dev" auto_page_num="Create an auto folio numbering" colsize="60" filename="" plant="" displayAt="bottom" freezeNewConductor="false" folio="%id/%total" rowsize="80" date="20240926" order="1" author="Kieran Sullivan" rows="8">
+        <defaultconductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" function="" conductor_color="" conductor_section="" type="multi" cable="" num="_" text_color="#000000" dash-size="2" condsize="1" vertirotatetext="270" formula="" horizrotatetext="0" tension_protocol="" bus="" numsize="7" onetextperfolio="0"/>
         <elements>
-            <element z="10" type="embed://import/uk/pendent-loop.elmt" x="810" orientation="1" freezeLabel="false" y="140" uuid="{4b388583-087a-4640-9b89-d54a7f075959}" prefix="">
+            <element prefix="" x="810" freezeLabel="false" z="10" uuid="{4b388583-087a-4640-9b89-d54a7f075959}" type="embed://import/uk/pendent-loop.elmt" orientation="1" y="140">
                 <terminals>
-                    <terminal x="-45" orientation="2" y="6" id="0"/>
-                    <terminal x="-35" orientation="2" y="6" id="1"/>
-                    <terminal x="-15" orientation="2" y="6" id="2"/>
-                    <terminal x="-5" orientation="2" y="6" id="3"/>
-                    <terminal x="5" orientation="2" y="6" id="4"/>
-                    <terminal x="15" orientation="2" y="6" id="5"/>
-                    <terminal x="35" orientation="2" y="6" id="6"/>
-                    <terminal x="45" orientation="2" y="6" id="7"/>
+                    <terminal x="-45" id="0" orientation="2" y="6"/>
+                    <terminal x="-35" id="1" orientation="2" y="6"/>
+                    <terminal x="-15" id="2" orientation="2" y="6"/>
+                    <terminal x="-5" id="3" orientation="2" y="6"/>
+                    <terminal x="5" id="4" orientation="2" y="6"/>
+                    <terminal x="15" id="5" orientation="2" y="6"/>
+                    <terminal x="35" id="6" orientation="2" y="6"/>
+                    <terminal x="45" id="7" orientation="2" y="6"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-intermediate.elmt" x="460" orientation="0" freezeLabel="false" y="140" uuid="{87906672-6bdf-4c09-b131-6cc740993074}" prefix="">
+            <element prefix="" x="460" freezeLabel="false" z="10" uuid="{87906672-6bdf-4c09-b131-6cc740993074}" type="embed://import/uk/switch-intermediate.elmt" orientation="0" y="140">
                 <terminals>
-                    <terminal x="-16" orientation="3" y="-20" id="8"/>
-                    <terminal x="16" orientation="1" y="-20" id="9"/>
-                    <terminal x="-16" orientation="3" y="20" id="10"/>
-                    <terminal x="16" orientation="1" y="20" id="11"/>
+                    <terminal x="-16" id="8" orientation="3" y="-20"/>
+                    <terminal x="16" id="9" orientation="1" y="-20"/>
+                    <terminal x="-16" id="10" orientation="3" y="20"/>
+                    <terminal x="16" id="11" orientation="1" y="20"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-2-way.elmt" x="290" orientation="3" freezeLabel="false" y="140" uuid="{dae536f6-08c5-4e9b-b1b5-8a7bf1c7684a}" prefix="">
+            <element prefix="" x="290" freezeLabel="false" z="10" uuid="{dae536f6-08c5-4e9b-b1b5-8a7bf1c7684a}" type="embed://import/uk/switch-2-way.elmt" orientation="3" y="140">
                 <terminals>
-                    <terminal x="0" orientation="2" y="-24" id="12"/>
-                    <terminal x="-20" orientation="2" y="16" id="13"/>
-                    <terminal x="20" orientation="2" y="16" id="14"/>
+                    <terminal x="0" id="12" orientation="2" y="-24"/>
+                    <terminal x="-20" id="13" orientation="2" y="16"/>
+                    <terminal x="20" id="14" orientation="2" y="16"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/feed-single-phase-v2.elmt" x="120" orientation="0" freezeLabel="false" y="550" uuid="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" prefix="">
+            <element prefix="" x="120" freezeLabel="false" z="10" uuid="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" type="embed://import/uk/feed-single-phase-v2.elmt" orientation="0" y="550">
                 <terminals>
-                    <terminal x="-25" orientation="0" y="-26" id="15"/>
-                    <terminal x="-3" orientation="0" y="-16" id="16"/>
-                    <terminal x="25" orientation="0" y="-6" id="17"/>
+                    <terminal x="-25" id="15" orientation="0" y="-26"/>
+                    <terminal x="-3" id="16" orientation="0" y="-16"/>
+                    <terminal x="25" id="17" orientation="0" y="-6"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-2-way.elmt" x="460" orientation="1" freezeLabel="false" y="320" uuid="{6622c56e-0dc4-4fea-a935-fe589831cd89}" prefix="">
+            <element prefix="" x="460" freezeLabel="false" z="10" uuid="{6622c56e-0dc4-4fea-a935-fe589831cd89}" type="embed://import/uk/switch-2-way.elmt" orientation="1" y="320">
                 <terminals>
-                    <terminal x="0" orientation="2" y="-24" id="18"/>
-                    <terminal x="-20" orientation="2" y="16" id="19"/>
-                    <terminal x="20" orientation="2" y="16" id="20"/>
+                    <terminal x="0" id="18" orientation="2" y="-24"/>
+                    <terminal x="-20" id="19" orientation="2" y="16"/>
+                    <terminal x="20" id="20" orientation="2" y="16"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-2-way.elmt" x="290" orientation="3" freezeLabel="false" y="320" uuid="{29bc0d42-320d-497f-b3b0-869e035231bf}" prefix="">
+            <element prefix="" x="290" freezeLabel="false" z="10" uuid="{29bc0d42-320d-497f-b3b0-869e035231bf}" type="embed://import/uk/switch-2-way.elmt" orientation="3" y="320">
                 <terminals>
-                    <terminal x="0" orientation="2" y="-24" id="21"/>
-                    <terminal x="-20" orientation="2" y="16" id="22"/>
-                    <terminal x="20" orientation="2" y="16" id="23"/>
+                    <terminal x="0" id="21" orientation="2" y="-24"/>
+                    <terminal x="-20" id="22" orientation="2" y="16"/>
+                    <terminal x="20" id="23" orientation="2" y="16"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/pendent-loop.elmt" x="640" orientation="1" freezeLabel="false" y="320" uuid="{e7a4823b-2bd3-40ec-9b79-101895c0e4ac}" prefix="">
+            <element prefix="" x="640" freezeLabel="false" z="10" uuid="{e7a4823b-2bd3-40ec-9b79-101895c0e4ac}" type="embed://import/uk/pendent-loop.elmt" orientation="1" y="320">
                 <terminals>
-                    <terminal x="-45" orientation="2" y="6" id="24"/>
-                    <terminal x="-35" orientation="2" y="6" id="25"/>
-                    <terminal x="-15" orientation="2" y="6" id="26"/>
-                    <terminal x="-5" orientation="2" y="6" id="27"/>
-                    <terminal x="5" orientation="2" y="6" id="28"/>
-                    <terminal x="15" orientation="2" y="6" id="29"/>
-                    <terminal x="35" orientation="2" y="6" id="30"/>
-                    <terminal x="45" orientation="2" y="6" id="31"/>
+                    <terminal x="-45" id="24" orientation="2" y="6"/>
+                    <terminal x="-35" id="25" orientation="2" y="6"/>
+                    <terminal x="-15" id="26" orientation="2" y="6"/>
+                    <terminal x="-5" id="27" orientation="2" y="6"/>
+                    <terminal x="5" id="28" orientation="2" y="6"/>
+                    <terminal x="15" id="29" orientation="2" y="6"/>
+                    <terminal x="35" id="30" orientation="2" y="6"/>
+                    <terminal x="45" id="31" orientation="2" y="6"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/pendent-loop.elmt" x="970" orientation="1" freezeLabel="false" y="140" uuid="{c7aed878-6c17-43fd-80dc-656bc21645f8}" prefix="">
+            <element prefix="" x="970" freezeLabel="false" z="10" uuid="{c7aed878-6c17-43fd-80dc-656bc21645f8}" type="embed://import/uk/pendent-loop.elmt" orientation="1" y="140">
                 <terminals>
-                    <terminal x="-45" orientation="2" y="6" id="32"/>
-                    <terminal x="-35" orientation="2" y="6" id="33"/>
-                    <terminal x="-15" orientation="2" y="6" id="34"/>
-                    <terminal x="-5" orientation="2" y="6" id="35"/>
-                    <terminal x="5" orientation="2" y="6" id="36"/>
-                    <terminal x="15" orientation="2" y="6" id="37"/>
-                    <terminal x="35" orientation="2" y="6" id="38"/>
-                    <terminal x="45" orientation="2" y="6" id="39"/>
+                    <terminal x="-45" id="32" orientation="2" y="6"/>
+                    <terminal x="-35" id="33" orientation="2" y="6"/>
+                    <terminal x="-15" id="34" orientation="2" y="6"/>
+                    <terminal x="-5" id="35" orientation="2" y="6"/>
+                    <terminal x="5" id="36" orientation="2" y="6"/>
+                    <terminal x="15" id="37" orientation="2" y="6"/>
+                    <terminal x="35" id="38" orientation="2" y="6"/>
+                    <terminal x="45" id="39" orientation="2" y="6"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-2-way.elmt" x="640" orientation="1" freezeLabel="false" y="140" uuid="{032c5267-69f9-4176-b119-e7d566da92f7}" prefix="">
+            <element prefix="" x="640" freezeLabel="false" z="10" uuid="{032c5267-69f9-4176-b119-e7d566da92f7}" type="embed://import/uk/switch-2-way.elmt" orientation="1" y="140">
                 <terminals>
-                    <terminal x="0" orientation="2" y="-24" id="40"/>
-                    <terminal x="-20" orientation="2" y="16" id="41"/>
-                    <terminal x="20" orientation="2" y="16" id="42"/>
+                    <terminal x="0" id="40" orientation="2" y="-24"/>
+                    <terminal x="-20" id="41" orientation="2" y="16"/>
+                    <terminal x="20" id="42" orientation="2" y="16"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
         </elements>
         <conductors>
-            <conductor terminal2="{19465668-c5f6-4e79-9c8c-024bcc79df60}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#0d06cb" element2_name="feed-single-phase-v2" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{4b388583-087a-4640-9b89-d54a7f075959}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{4b388583-087a-4640-9b89-d54a7f075959}" function="" conductor_color="" element2="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" element2_label="" element2_name="feed-single-phase-v2" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{19465668-c5f6-4e79-9c8c-024bcc79df60}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <segment length="-10" orientation="horizontal"/>
                 <segment length="-25" orientation="vertical"/>
                 <segment length="-695" orientation="horizontal"/>
@@ -179,7 +179,7 @@
                 <segment length="10" orientation="vertical"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{19465668-c5f6-4e79-9c8c-024bcc79df60}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#0d06cb" element2_name="feed-single-phase-v2" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{e7a4823b-2bd3-40ec-9b79-101895c0e4ac}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{e7a4823b-2bd3-40ec-9b79-101895c0e4ac}" function="" conductor_color="" element2="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" element2_label="" element2_name="feed-single-phase-v2" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{19465668-c5f6-4e79-9c8c-024bcc79df60}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <segment length="-10" orientation="horizontal"/>
                 <segment length="-25" orientation="vertical"/>
                 <segment length="-525" orientation="horizontal"/>
@@ -187,10 +187,10 @@
                 <segment length="10" orientation="vertical"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{2ee755ef-c2c3-454f-967a-aa1e5447d2b3}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{87906672-6bdf-4c09-b131-6cc740993074}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="intermediate-switch" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{dae536f6-08c5-4e9b-b1b5-8a7bf1c7684a}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{dae536f6-08c5-4e9b-b1b5-8a7bf1c7684a}" function="" conductor_color="" element2="{87906672-6bdf-4c09-b131-6cc740993074}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" element2_label="" element2_name="intermediate-switch" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{2ee755ef-c2c3-454f-967a-aa1e5447d2b3}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{71448bcd-3300-4182-8f5b-508694c2d0b4}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{e7a4823b-2bd3-40ec-9b79-101895c0e4ac}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="pendent-loop" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{6622c56e-0dc4-4fea-a935-fe589831cd89}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{6622c56e-0dc4-4fea-a935-fe589831cd89}" function="" conductor_color="" element2="{e7a4823b-2bd3-40ec-9b79-101895c0e4ac}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{71448bcd-3300-4182-8f5b-508694c2d0b4}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <segment length="-10" orientation="horizontal"/>
                 <segment length="80" orientation="horizontal"/>
                 <segment length="35" orientation="vertical"/>
@@ -198,31 +198,31 @@
                 <segment length="10" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{8606d49b-50b7-423c-b422-bb1c44cf7202}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{8606d49b-50b7-423c-b422-bb1c44cf7202}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{4b388583-087a-4640-9b89-d54a7f075959}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#0d06cb" element2_name="pendent-loop" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{c7aed878-6c17-43fd-80dc-656bc21645f8}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{c7aed878-6c17-43fd-80dc-656bc21645f8}" function="" conductor_color="" element2="{4b388583-087a-4640-9b89-d54a7f075959}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{8606d49b-50b7-423c-b422-bb1c44cf7202}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{8606d49b-50b7-423c-b422-bb1c44cf7202}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{71448bcd-3300-4182-8f5b-508694c2d0b4}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{4b388583-087a-4640-9b89-d54a7f075959}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="pendent-loop" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{032c5267-69f9-4176-b119-e7d566da92f7}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{032c5267-69f9-4176-b119-e7d566da92f7}" function="" conductor_color="" element2="{4b388583-087a-4640-9b89-d54a7f075959}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{71448bcd-3300-4182-8f5b-508694c2d0b4}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{a6a57e12-7de2-418c-a120-56a909f97cf4}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{a6a57e12-7de2-418c-a120-56a909f97cf4}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{c7aed878-6c17-43fd-80dc-656bc21645f8}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="pendent-loop" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{4b388583-087a-4640-9b89-d54a7f075959}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{4b388583-087a-4640-9b89-d54a7f075959}" function="" conductor_color="" element2="{c7aed878-6c17-43fd-80dc-656bc21645f8}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{a6a57e12-7de2-418c-a120-56a909f97cf4}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{a6a57e12-7de2-418c-a120-56a909f97cf4}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{cbb0e503-cb01-4f82-8952-29c63b724be2}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{87906672-6bdf-4c09-b131-6cc740993074}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="intermediate-switch" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{dae536f6-08c5-4e9b-b1b5-8a7bf1c7684a}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{dae536f6-08c5-4e9b-b1b5-8a7bf1c7684a}" function="" conductor_color="" element2="{87906672-6bdf-4c09-b131-6cc740993074}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" element2_label="" element2_name="intermediate-switch" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{cbb0e503-cb01-4f82-8952-29c63b724be2}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{6622c56e-0dc4-4fea-a935-fe589831cd89}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="switch-2-way" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{29bc0d42-320d-497f-b3b0-869e035231bf}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{29bc0d42-320d-497f-b3b0-869e035231bf}" function="" conductor_color="" element2="{6622c56e-0dc4-4fea-a935-fe589831cd89}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{6622c56e-0dc4-4fea-a935-fe589831cd89}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="switch-2-way" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{29bc0d42-320d-497f-b3b0-869e035231bf}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{29bc0d42-320d-497f-b3b0-869e035231bf}" function="" conductor_color="" element2="{6622c56e-0dc4-4fea-a935-fe589831cd89}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{982849bc-0ae0-4edf-a45c-a6044996915e}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{032c5267-69f9-4176-b119-e7d566da92f7}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="switch-2-way" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{87906672-6bdf-4c09-b131-6cc740993074}" element1_name="intermediate-switch">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{87906672-6bdf-4c09-b131-6cc740993074}" function="" conductor_color="" element2="{032c5267-69f9-4176-b119-e7d566da92f7}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{982849bc-0ae0-4edf-a45c-a6044996915e}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="intermediate-switch" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{1d5bac72-ed3b-4b4e-b4ea-4593eefb21ac}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{032c5267-69f9-4176-b119-e7d566da92f7}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="switch-2-way" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{87906672-6bdf-4c09-b131-6cc740993074}" element1_name="intermediate-switch">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{87906672-6bdf-4c09-b131-6cc740993074}" function="" conductor_color="" element2="{032c5267-69f9-4176-b119-e7d566da92f7}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{1d5bac72-ed3b-4b4e-b4ea-4593eefb21ac}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="intermediate-switch" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{57d9f653-bd0e-4b41-aefc-b116508fe273}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{dae536f6-08c5-4e9b-b1b5-8a7bf1c7684a}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="switch-2-way" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" element1_name="feed-single-phase-v2">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" function="" conductor_color="" element2="{dae536f6-08c5-4e9b-b1b5-8a7bf1c7684a}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{57d9f653-bd0e-4b41-aefc-b116508fe273}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="feed-single-phase-v2" onetextperfolio="0">
                 <segment length="-10" orientation="vertical"/>
                 <segment length="-380" orientation="vertical"/>
                 <segment length="3" orientation="horizontal"/>
@@ -231,7 +231,7 @@
                 <segment length="-10" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{57d9f653-bd0e-4b41-aefc-b116508fe273}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{29bc0d42-320d-497f-b3b0-869e035231bf}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#dd3939" element2_name="switch-2-way" y="0" condsize="2" type="multi" num="" horizrotatetext="0" element1="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" element1_name="feed-single-phase-v2">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{13d89400-6d05-41bc-9e3f-d5a366ede5f3}" function="" conductor_color="" element2="{29bc0d42-320d-497f-b3b0-869e035231bf}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{57d9f653-bd0e-4b41-aefc-b116508fe273}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="2" vertirotatetext="270" terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="feed-single-phase-v2" onetextperfolio="0">
                 <segment length="-10" orientation="vertical"/>
                 <segment length="-200" orientation="vertical"/>
                 <segment length="3" orientation="horizontal"/>
@@ -242,229 +242,229 @@
             </conductor>
         </conductors>
     </diagram>
-    <diagram displayAt="bottom" rows="8" folio="%id/%total" displayrows="true" height="660" cols="17" auto_page_num="Create an auto folio numbering" date="null" version="0.100.0-dev" displaycols="true" title="" rowsize="80" filename="" plant="" colsize="60" freezeNewConductor="false" order="2" locmach="" freezeNewElement="false" indexrev="" author="Kieran Sullivan">
-        <defaultconductor bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" formula="" bus="" numsize="7" cable="" conductor_color="" onetextperfolio="0" vertical-alignment="AlignRight" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" conductor_section="" color="#dd3939" condsize="3" type="multi" num="_" horizrotatetext="0"/>
+    <diagram displaycols="true" displayrows="true" locmach="" cols="17" title="" height="660" indexrev="" freezeNewElement="false" version="0.100.0-dev" auto_page_num="Create an auto folio numbering" colsize="60" filename="" plant="" displayAt="bottom" freezeNewConductor="false" folio="%id/%total" rowsize="80" date="null" order="2" author="Kieran Sullivan" rows="8">
+        <defaultconductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" function="" conductor_color="" conductor_section="" type="multi" cable="" num="_" text_color="#000000" dash-size="2" condsize="3" vertirotatetext="270" formula="" horizrotatetext="0" tension_protocol="" color="#dd3939" bus="" numsize="7" onetextperfolio="0"/>
         <elements>
-            <element z="10" type="embed://import/uk/waygo-2-way.elmt" x="310" orientation="0" freezeLabel="false" y="140" uuid="{abbe8cc4-192e-487b-aba7-0ae5f2f141ad}" prefix="">
+            <element prefix="" x="310" freezeLabel="false" z="10" uuid="{abbe8cc4-192e-487b-aba7-0ae5f2f141ad}" type="embed://import/uk/waygo-2-way.elmt" orientation="0" y="140">
                 <terminals>
-                    <terminal x="19" orientation="3" y="-5" id="0"/>
-                    <terminal x="19" orientation="3" y="5" id="1"/>
+                    <terminal x="19" id="0" orientation="3" y="-5"/>
+                    <terminal x="19" id="1" orientation="3" y="5"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/pendent-loop.elmt" x="810" orientation="1" freezeLabel="false" y="140" uuid="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" prefix="">
+            <element prefix="" x="810" freezeLabel="false" z="10" uuid="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" type="embed://import/uk/pendent-loop.elmt" orientation="1" y="140">
                 <terminals>
-                    <terminal x="-45" orientation="2" y="6" id="2"/>
-                    <terminal x="-35" orientation="2" y="6" id="3"/>
-                    <terminal x="-15" orientation="2" y="6" id="4"/>
-                    <terminal x="-5" orientation="2" y="6" id="5"/>
-                    <terminal x="5" orientation="2" y="6" id="6"/>
-                    <terminal x="15" orientation="2" y="6" id="7"/>
-                    <terminal x="35" orientation="2" y="6" id="8"/>
-                    <terminal x="45" orientation="2" y="6" id="9"/>
+                    <terminal x="-45" id="2" orientation="2" y="6"/>
+                    <terminal x="-35" id="3" orientation="2" y="6"/>
+                    <terminal x="-15" id="4" orientation="2" y="6"/>
+                    <terminal x="-5" id="5" orientation="2" y="6"/>
+                    <terminal x="5" id="6" orientation="2" y="6"/>
+                    <terminal x="15" id="7" orientation="2" y="6"/>
+                    <terminal x="35" id="8" orientation="2" y="6"/>
+                    <terminal x="45" id="9" orientation="2" y="6"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/waygo-2-way.elmt" x="450" orientation="0" freezeLabel="false" y="140" uuid="{545fa9ec-8b4c-402a-a095-6a425997e46f}" prefix="">
+            <element prefix="" x="450" freezeLabel="false" z="10" uuid="{545fa9ec-8b4c-402a-a095-6a425997e46f}" type="embed://import/uk/waygo-2-way.elmt" orientation="0" y="140">
                 <terminals>
-                    <terminal x="19" orientation="3" y="-5" id="10"/>
-                    <terminal x="19" orientation="3" y="5" id="11"/>
+                    <terminal x="19" id="10" orientation="3" y="-5"/>
+                    <terminal x="19" id="11" orientation="3" y="5"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/pendent-loop.elmt" x="970" orientation="1" freezeLabel="false" y="140" uuid="{836e1853-6fd8-4411-bc56-96fa4bbba8f0}" prefix="">
+            <element prefix="" x="970" freezeLabel="false" z="10" uuid="{836e1853-6fd8-4411-bc56-96fa4bbba8f0}" type="embed://import/uk/pendent-loop.elmt" orientation="1" y="140">
                 <terminals>
-                    <terminal x="-45" orientation="2" y="6" id="12"/>
-                    <terminal x="-35" orientation="2" y="6" id="13"/>
-                    <terminal x="-15" orientation="2" y="6" id="14"/>
-                    <terminal x="-5" orientation="2" y="6" id="15"/>
-                    <terminal x="5" orientation="2" y="6" id="16"/>
-                    <terminal x="15" orientation="2" y="6" id="17"/>
-                    <terminal x="35" orientation="2" y="6" id="18"/>
-                    <terminal x="45" orientation="2" y="6" id="19"/>
+                    <terminal x="-45" id="12" orientation="2" y="6"/>
+                    <terminal x="-35" id="13" orientation="2" y="6"/>
+                    <terminal x="-15" id="14" orientation="2" y="6"/>
+                    <terminal x="-5" id="15" orientation="2" y="6"/>
+                    <terminal x="5" id="16" orientation="2" y="6"/>
+                    <terminal x="15" id="17" orientation="2" y="6"/>
+                    <terminal x="35" id="18" orientation="2" y="6"/>
+                    <terminal x="45" id="19" orientation="2" y="6"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-intermediate.elmt" x="460" orientation="0" freezeLabel="false" y="140" uuid="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" prefix="">
+            <element prefix="" x="460" freezeLabel="false" z="10" uuid="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" type="embed://import/uk/switch-intermediate.elmt" orientation="0" y="140">
                 <terminals>
-                    <terminal x="-16" orientation="3" y="-20" id="20"/>
-                    <terminal x="16" orientation="1" y="-20" id="21"/>
-                    <terminal x="-16" orientation="3" y="20" id="22"/>
-                    <terminal x="16" orientation="1" y="20" id="23"/>
+                    <terminal x="-16" id="20" orientation="3" y="-20"/>
+                    <terminal x="16" id="21" orientation="1" y="-20"/>
+                    <terminal x="-16" id="22" orientation="3" y="20"/>
+                    <terminal x="16" id="23" orientation="1" y="20"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-2-way.elmt" x="290" orientation="3" freezeLabel="false" y="140" uuid="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" prefix="">
+            <element prefix="" x="290" freezeLabel="false" z="10" uuid="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" type="embed://import/uk/switch-2-way.elmt" orientation="3" y="140">
                 <terminals>
-                    <terminal x="0" orientation="2" y="-24" id="24"/>
-                    <terminal x="-20" orientation="2" y="16" id="25"/>
-                    <terminal x="20" orientation="2" y="16" id="26"/>
+                    <terminal x="0" id="24" orientation="2" y="-24"/>
+                    <terminal x="-20" id="25" orientation="2" y="16"/>
+                    <terminal x="20" id="26" orientation="2" y="16"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-2-way.elmt" x="640" orientation="1" freezeLabel="false" y="140" uuid="{0ecaa552-8c36-4bd7-93b5-7471edb04855}" prefix="">
+            <element prefix="" x="640" freezeLabel="false" z="10" uuid="{0ecaa552-8c36-4bd7-93b5-7471edb04855}" type="embed://import/uk/switch-2-way.elmt" orientation="1" y="140">
                 <terminals>
-                    <terminal x="0" orientation="2" y="-24" id="27"/>
-                    <terminal x="-20" orientation="2" y="16" id="28"/>
-                    <terminal x="20" orientation="2" y="16" id="29"/>
+                    <terminal x="0" id="27" orientation="2" y="-24"/>
+                    <terminal x="-20" id="28" orientation="2" y="16"/>
+                    <terminal x="20" id="29" orientation="2" y="16"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/waygo-2-way.elmt" x="480" orientation="0" freezeLabel="false" y="340" uuid="{0a4da23c-d30b-4c12-943a-99b7b2417f30}" prefix="">
+            <element prefix="" x="480" freezeLabel="false" z="10" uuid="{0a4da23c-d30b-4c12-943a-99b7b2417f30}" type="embed://import/uk/waygo-2-way.elmt" orientation="0" y="340">
                 <terminals>
-                    <terminal x="19" orientation="3" y="-5" id="30"/>
-                    <terminal x="19" orientation="3" y="5" id="31"/>
+                    <terminal x="19" id="30" orientation="3" y="-5"/>
+                    <terminal x="19" id="31" orientation="3" y="5"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-2-way.elmt" x="290" orientation="3" freezeLabel="false" y="320" uuid="{ad700461-968a-4304-b693-5af870dfa185}" prefix="">
+            <element prefix="" x="290" freezeLabel="false" z="10" uuid="{ad700461-968a-4304-b693-5af870dfa185}" type="embed://import/uk/switch-2-way.elmt" orientation="3" y="320">
                 <terminals>
-                    <terminal x="0" orientation="2" y="-24" id="32"/>
-                    <terminal x="-20" orientation="2" y="16" id="33"/>
-                    <terminal x="20" orientation="2" y="16" id="34"/>
+                    <terminal x="0" id="32" orientation="2" y="-24"/>
+                    <terminal x="-20" id="33" orientation="2" y="16"/>
+                    <terminal x="20" id="34" orientation="2" y="16"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/feed-single-phase-v2.elmt" x="120" orientation="0" freezeLabel="false" y="550" uuid="{623334bc-a558-49ce-8f96-b2bab812593c}" prefix="">
+            <element prefix="" x="120" freezeLabel="false" z="10" uuid="{623334bc-a558-49ce-8f96-b2bab812593c}" type="embed://import/uk/feed-single-phase-v2.elmt" orientation="0" y="550">
                 <terminals>
-                    <terminal x="-25" orientation="0" y="-26" id="35"/>
-                    <terminal x="-3" orientation="0" y="-16" id="36"/>
-                    <terminal x="25" orientation="0" y="-6" id="37"/>
+                    <terminal x="-25" id="35" orientation="0" y="-26"/>
+                    <terminal x="-3" id="36" orientation="0" y="-16"/>
+                    <terminal x="25" id="37" orientation="0" y="-6"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/waygo-2-way.elmt" x="270" orientation="0" freezeLabel="false" y="160" uuid="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" prefix="">
+            <element prefix="" x="270" freezeLabel="false" z="10" uuid="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" type="embed://import/uk/waygo-2-way.elmt" orientation="0" y="160">
                 <terminals>
-                    <terminal x="19" orientation="3" y="-5" id="38"/>
-                    <terminal x="19" orientation="3" y="5" id="39"/>
+                    <terminal x="19" id="38" orientation="3" y="-5"/>
+                    <terminal x="19" id="39" orientation="3" y="5"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/pendent-loop.elmt" x="650" orientation="1" freezeLabel="false" y="320" uuid="{f96976b4-7a03-4454-a165-e322cce656bf}" prefix="">
+            <element prefix="" x="650" freezeLabel="false" z="10" uuid="{f96976b4-7a03-4454-a165-e322cce656bf}" type="embed://import/uk/pendent-loop.elmt" orientation="1" y="320">
                 <terminals>
-                    <terminal x="-45" orientation="2" y="6" id="40"/>
-                    <terminal x="-35" orientation="2" y="6" id="41"/>
-                    <terminal x="-15" orientation="2" y="6" id="42"/>
-                    <terminal x="-5" orientation="2" y="6" id="43"/>
-                    <terminal x="5" orientation="2" y="6" id="44"/>
-                    <terminal x="15" orientation="2" y="6" id="45"/>
-                    <terminal x="35" orientation="2" y="6" id="46"/>
-                    <terminal x="45" orientation="2" y="6" id="47"/>
+                    <terminal x="-45" id="40" orientation="2" y="6"/>
+                    <terminal x="-35" id="41" orientation="2" y="6"/>
+                    <terminal x="-15" id="42" orientation="2" y="6"/>
+                    <terminal x="-5" id="43" orientation="2" y="6"/>
+                    <terminal x="5" id="44" orientation="2" y="6"/>
+                    <terminal x="15" id="45" orientation="2" y="6"/>
+                    <terminal x="35" id="46" orientation="2" y="6"/>
+                    <terminal x="45" id="47" orientation="2" y="6"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
-            <element z="10" type="embed://import/uk/switch-2-way.elmt" x="460" orientation="1" freezeLabel="false" y="320" uuid="{d9531c28-3844-4dab-b51e-ff4eccc0f3c5}" prefix="">
+            <element prefix="" x="460" freezeLabel="false" z="10" uuid="{d9531c28-3844-4dab-b51e-ff4eccc0f3c5}" type="embed://import/uk/switch-2-way.elmt" orientation="1" y="320">
                 <terminals>
-                    <terminal x="0" orientation="2" y="-24" id="48"/>
-                    <terminal x="-20" orientation="2" y="16" id="49"/>
-                    <terminal x="20" orientation="2" y="16" id="50"/>
+                    <terminal x="0" id="48" orientation="2" y="-24"/>
+                    <terminal x="-20" id="49" orientation="2" y="16"/>
+                    <terminal x="20" id="50" orientation="2" y="16"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
-                    <elementInformation name="location" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
                 </elementInformations>
                 <dynamic_texts/>
                 <texts_groups/>
             </element>
         </elements>
         <conductors>
-            <conductor terminal2="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{19465668-c5f6-4e79-9c8c-024bcc79df60}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#0d06cb" element2_name="waygo-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{623334bc-a558-49ce-8f96-b2bab812593c}" element1_name="feed-single-phase-v2">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{623334bc-a558-49ce-8f96-b2bab812593c}" function="" conductor_color="" element2="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{19465668-c5f6-4e79-9c8c-024bcc79df60}" element2_label="" element2_name="waygo-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="feed-single-phase-v2" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{d9531c28-3844-4dab-b51e-ff4eccc0f3c5}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="switch-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{ad700461-968a-4304-b693-5af870dfa185}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{ad700461-968a-4304-b693-5af870dfa185}" function="" conductor_color="" element2="{d9531c28-3844-4dab-b51e-ff4eccc0f3c5}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{545fa9ec-8b4c-402a-a095-6a425997e46f}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#7f7f7f" element2_name="waygo-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{0ecaa552-8c36-4bd7-93b5-7471edb04855}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{0ecaa552-8c36-4bd7-93b5-7471edb04855}" function="" conductor_color="" element2="{545fa9ec-8b4c-402a-a095-6a425997e46f}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" element2_label="" element2_name="waygo-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#7f7f7f" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{8606d49b-50b7-423c-b422-bb1c44cf7202}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#0d06cb" element2_name="waygo-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{f96976b4-7a03-4454-a165-e322cce656bf}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{f96976b4-7a03-4454-a165-e322cce656bf}" function="" conductor_color="" element2="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{8606d49b-50b7-423c-b422-bb1c44cf7202}" element2_label="" element2_name="waygo-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <segment length="-10" orientation="horizontal"/>
                 <segment length="90" orientation="horizontal"/>
                 <segment length="-225" orientation="vertical"/>
@@ -474,7 +474,7 @@
                 <segment length="5" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{57d9f653-bd0e-4b41-aefc-b116508fe273}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="switch-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{623334bc-a558-49ce-8f96-b2bab812593c}" element1_name="feed-single-phase-v2">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{623334bc-a558-49ce-8f96-b2bab812593c}" function="" conductor_color="" element2="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{57d9f653-bd0e-4b41-aefc-b116508fe273}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="feed-single-phase-v2" onetextperfolio="0">
                 <segment length="-10" orientation="vertical"/>
                 <segment length="-380" orientation="vertical"/>
                 <segment length="3" orientation="horizontal"/>
@@ -483,13 +483,13 @@
                 <segment length="-10" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{cbb0e503-cb01-4f82-8952-29c63b724be2}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" element2_name="intermediate-switch" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" function="" conductor_color="" element2="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" element2_label="" element2_name="intermediate-switch" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{cbb0e503-cb01-4f82-8952-29c63b724be2}" formula="" horizrotatetext="0" x="0" tension_protocol="" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{1d5bac72-ed3b-4b4e-b4ea-4593eefb21ac}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{0ecaa552-8c36-4bd7-93b5-7471edb04855}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" element2_name="switch-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" element1_name="intermediate-switch">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" function="" conductor_color="" element2="{0ecaa552-8c36-4bd7-93b5-7471edb04855}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{1d5bac72-ed3b-4b4e-b4ea-4593eefb21ac}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" horizrotatetext="0" x="0" tension_protocol="" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="intermediate-switch" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{a6a57e12-7de2-418c-a120-56a909f97cf4}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{d9531c28-3844-4dab-b51e-ff4eccc0f3c5}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="switch-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{f96976b4-7a03-4454-a165-e322cce656bf}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{f96976b4-7a03-4454-a165-e322cce656bf}" function="" conductor_color="" element2="{d9531c28-3844-4dab-b51e-ff4eccc0f3c5}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{a6a57e12-7de2-418c-a120-56a909f97cf4}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <segment length="-12" orientation="horizontal"/>
                 <segment length="0" orientation="horizontal"/>
                 <segment length="35" orientation="vertical"/>
@@ -501,10 +501,10 @@
                 <segment length="8" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{836e1853-6fd8-4411-bc56-96fa4bbba8f0}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#0d06cb" element2_name="pendent-loop" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" function="" conductor_color="" element2="{836e1853-6fd8-4411-bc56-96fa4bbba8f0}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{d62accf7-46c4-4af8-a772-4fbfb7fcfb2d}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{a6a57e12-7de2-418c-a120-56a909f97cf4}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="waygo-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{f96976b4-7a03-4454-a165-e322cce656bf}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{f96976b4-7a03-4454-a165-e322cce656bf}" function="" conductor_color="" element2="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{a6a57e12-7de2-418c-a120-56a909f97cf4}" element2_label="" element2_name="waygo-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{d62accf7-46c4-4af8-a772-4fbfb7fcfb2d}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <segment length="-10" orientation="horizontal"/>
                 <segment length="100" orientation="horizontal"/>
                 <segment length="-305" orientation="vertical"/>
@@ -513,10 +513,10 @@
                 <segment length="5" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{982849bc-0ae0-4edf-a45c-a6044996915e}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{0ecaa552-8c36-4bd7-93b5-7471edb04855}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="switch-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" element1_name="intermediate-switch">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" function="" conductor_color="" element2="{0ecaa552-8c36-4bd7-93b5-7471edb04855}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{982849bc-0ae0-4edf-a45c-a6044996915e}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="intermediate-switch" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{d62accf7-46c4-4af8-a772-4fbfb7fcfb2d}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="switch-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" element1_name="waygo-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" function="" conductor_color="" element2="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{d62accf7-46c4-4af8-a772-4fbfb7fcfb2d}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="waygo-2-way" onetextperfolio="0">
                 <segment length="-5" orientation="horizontal"/>
                 <segment length="-40" orientation="horizontal"/>
                 <segment length="-15" orientation="vertical"/>
@@ -526,7 +526,7 @@
                 <segment length="-10" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#0d06cb" element2_name="pendent-loop" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" element1_name="waygo-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{fe3cdfc4-95fe-425c-a0be-f5f0ed047476}" function="" conductor_color="" element2="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="waygo-2-way" onetextperfolio="0">
                 <segment length="-5" orientation="horizontal"/>
                 <segment length="-20" orientation="horizontal"/>
                 <segment length="-95" orientation="vertical"/>
@@ -535,7 +535,7 @@
                 <segment length="10" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{ad700461-968a-4304-b693-5af870dfa185}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#7f7f7f" element2_name="switch-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{0a4da23c-d30b-4c12-943a-99b7b2417f30}" element1_name="waygo-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{0a4da23c-d30b-4c12-943a-99b7b2417f30}" function="" conductor_color="" element2="{ad700461-968a-4304-b693-5af870dfa185}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#7f7f7f" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="waygo-2-way" onetextperfolio="0">
                 <segment length="-5" orientation="horizontal"/>
                 <segment length="-40" orientation="horizontal"/>
                 <segment length="-5" orientation="vertical"/>
@@ -546,10 +546,10 @@
                 <segment length="-10" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{2ee755ef-c2c3-454f-967a-aa1e5447d2b3}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="intermediate-switch" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{2bf0a06d-f57b-4c90-b6ab-5c7fa459137b}" function="" conductor_color="" element2="{b896f550-c5da-4cf6-b6a7-3ccf605dded0}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" element2_label="" element2_name="intermediate-switch" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{2ee755ef-c2c3-454f-967a-aa1e5447d2b3}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{f96976b4-7a03-4454-a165-e322cce656bf}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#0d06cb" element2_name="pendent-loop" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{0a4da23c-d30b-4c12-943a-99b7b2417f30}" element1_name="waygo-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{0a4da23c-d30b-4c12-943a-99b7b2417f30}" function="" conductor_color="" element2="{f96976b4-7a03-4454-a165-e322cce656bf}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="waygo-2-way" onetextperfolio="0">
                 <segment length="-5" orientation="horizontal"/>
                 <segment length="-10" orientation="horizontal"/>
                 <segment length="65" orientation="vertical"/>
@@ -559,10 +559,10 @@
                 <segment length="10" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{d9531c28-3844-4dab-b51e-ff4eccc0f3c5}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" element2_name="switch-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{ad700461-968a-4304-b693-5af870dfa185}" element1_name="switch-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{ad700461-968a-4304-b693-5af870dfa185}" function="" conductor_color="" element2="{d9531c28-3844-4dab-b51e-ff4eccc0f3c5}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" horizrotatetext="0" x="0" tension_protocol="" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{71448bcd-3300-4182-8f5b-508694c2d0b4}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="pendent-loop" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{abbe8cc4-192e-487b-aba7-0ae5f2f141ad}" element1_name="waygo-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{abbe8cc4-192e-487b-aba7-0ae5f2f141ad}" function="" conductor_color="" element2="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{71448bcd-3300-4182-8f5b-508694c2d0b4}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="waygo-2-way" onetextperfolio="0">
                 <segment length="-5" orientation="horizontal"/>
                 <segment length="-30" orientation="horizontal"/>
                 <segment length="-75" orientation="vertical"/>
@@ -572,23 +572,223 @@
                 <segment length="10" orientation="horizontal"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{71448bcd-3300-4182-8f5b-508694c2d0b4}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{71448bcd-3300-4182-8f5b-508694c2d0b4}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{836e1853-6fd8-4411-bc56-96fa4bbba8f0}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#bd740e" element2_name="pendent-loop" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" element1_name="pendent-loop">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{42b016d4-5a23-4fac-81fa-82fbfdf10138}" function="" conductor_color="" element2="{836e1853-6fd8-4411-bc56-96fa4bbba8f0}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{71448bcd-3300-4182-8f5b-508694c2d0b4}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{71448bcd-3300-4182-8f5b-508694c2d0b4}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#bd740e" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
-            <conductor terminal2="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" terminalname1="" bicolor="false" function="" dash-size="2" text_color="#000000" displaytext="1" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" bus="" numsize="7" cable="" freezeLabel="false" conductor_color="" x="0" element2="{abbe8cc4-192e-487b-aba7-0ae5f2f141ad}" onetextperfolio="0" vertical-alignment="AlignRight" terminalname2="" tension_protocol="" vertirotatetext="270" horizontal-alignment="AlignBottom" color2="#000000" element1_label="" element2_label="" conductor_section="" color="#7f7f7f" element2_name="waygo-2-way" y="0" condsize="3" type="multi" num="" horizrotatetext="0" element1="{545fa9ec-8b4c-402a-a095-6a425997e46f}" element1_name="waygo-2-way">
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{545fa9ec-8b4c-402a-a095-6a425997e46f}" function="" conductor_color="" element2="{abbe8cc4-192e-487b-aba7-0ae5f2f141ad}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" element2_label="" element2_name="waygo-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#7f7f7f" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="waygo-2-way" onetextperfolio="0">
                 <sequentialNumbers/>
             </conductor>
         </conductors>
         <shapes>
-            <shape closed="0" x1="490" z="0" type="Rectangle" rx="0" ry="0" x2="600" y2="410" is_movable="1" y1="390">
+            <shape closed="0" is_movable="1" rx="0" z="0" x1="490" x2="600" ry="0" type="Rectangle" y1="390" y2="410">
                 <pen color="#000000" widthF="1" style="SolidLine"/>
                 <brush color="#000000" style="NoBrush"/>
             </shape>
-            <shape closed="0" x1="300" z="0" type="Rectangle" rx="0" ry="0" x2="630" y2="70" is_movable="1" y1="50">
+            <shape closed="0" is_movable="1" rx="0" z="0" x1="300" x2="630" ry="0" type="Rectangle" y1="50" y2="70">
                 <pen color="#000000" widthF="1" style="SolidLine"/>
                 <brush color="#000000" style="NoBrush"/>
             </shape>
         </shapes>
+    </diagram>
+    <diagram displaycols="true" displayrows="true" locmach="" cols="17" title="" height="660" indexrev="" freezeNewElement="false" version="0.100.0-dev" auto_page_num="Create an auto folio numbering" colsize="60" filename="" plant="" displayAt="bottom" freezeNewConductor="false" folio="%id/%total" rowsize="80" date="null" order="3" author="Kieran Sullivan" rows="8">
+        <defaultconductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" function="" conductor_color="" conductor_section="" type="multi" cable="" num="_" text_color="#000000" dash-size="2" condsize="3" vertirotatetext="270" formula="" horizrotatetext="0" tension_protocol="" color="#dd3939" bus="" numsize="7" onetextperfolio="0"/>
+        <elements>
+            <element prefix="" x="910" freezeLabel="false" z="10" uuid="{fa7146f6-5f9d-452d-8989-0fc4a3939d16}" type="embed://import/uk/switch-2-way.elmt" orientation="1" y="320">
+                <terminals>
+                    <terminal x="0" id="0" orientation="2" y="-24"/>
+                    <terminal x="-20" id="1" orientation="2" y="16"/>
+                    <terminal x="20" id="2" orientation="2" y="16"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element prefix="" x="900" freezeLabel="false" z="10" uuid="{d07da8f9-d87d-46e5-b686-a44724b155eb}" type="embed://import/uk/pendent-loop.elmt" orientation="1" y="110">
+                <terminals>
+                    <terminal x="-45" id="3" orientation="2" y="6"/>
+                    <terminal x="-35" id="4" orientation="2" y="6"/>
+                    <terminal x="-15" id="5" orientation="2" y="6"/>
+                    <terminal x="-5" id="6" orientation="2" y="6"/>
+                    <terminal x="5" id="7" orientation="2" y="6"/>
+                    <terminal x="15" id="8" orientation="2" y="6"/>
+                    <terminal x="35" id="9" orientation="2" y="6"/>
+                    <terminal x="45" id="10" orientation="2" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element prefix="" x="490" freezeLabel="false" z="10" uuid="{75767f7c-8012-434c-8255-be8bd58b708f}" type="embed://import/uk/pendent-loop.elmt" orientation="1" y="110">
+                <terminals>
+                    <terminal x="-45" id="11" orientation="2" y="6"/>
+                    <terminal x="-35" id="12" orientation="2" y="6"/>
+                    <terminal x="-15" id="13" orientation="2" y="6"/>
+                    <terminal x="-5" id="14" orientation="2" y="6"/>
+                    <terminal x="5" id="15" orientation="2" y="6"/>
+                    <terminal x="15" id="16" orientation="2" y="6"/>
+                    <terminal x="35" id="17" orientation="2" y="6"/>
+                    <terminal x="45" id="18" orientation="2" y="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element prefix="" x="130" freezeLabel="false" z="10" uuid="{34dabeab-0da4-4ca7-bafd-aa9425d80c72}" type="embed://import/uk/feed-single-phase-v2.elmt" orientation="0" y="570">
+                <terminals>
+                    <terminal x="-25" id="19" orientation="0" y="-26"/>
+                    <terminal x="-3" id="20" orientation="0" y="-16"/>
+                    <terminal x="25" id="21" orientation="0" y="-6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element prefix="" x="130" freezeLabel="false" z="10" uuid="{7b5aefdf-5b19-4a6b-b173-0e5e71aa8295}" type="embed://import/uk/junction-box-4-way.elmt" orientation="0" y="120">
+                <terminals>
+                    <terminal x="0" id="22" orientation="0" y="-16"/>
+                    <terminal x="-16" id="23" orientation="3" y="0"/>
+                    <terminal x="16" id="24" orientation="1" y="0"/>
+                    <terminal x="0" id="25" orientation="2" y="16"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element prefix="" x="590" freezeLabel="false" z="10" uuid="{5189ea81-5599-46a7-bbb1-75dbf691c93f}" type="embed://import/uk/switch-2-way.elmt" orientation="3" y="320">
+                <terminals>
+                    <terminal x="0" id="26" orientation="2" y="-24"/>
+                    <terminal x="-20" id="27" orientation="2" y="16"/>
+                    <terminal x="20" id="28" orientation="2" y="16"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element prefix="" x="750" freezeLabel="false" z="10" uuid="{1e8bc84a-78e6-46e6-b1ec-ff5c7ec8ec98}" type="embed://import/uk/intermediate-switch.elmt" orientation="0" y="320">
+                <terminals>
+                    <terminal x="-16" id="29" orientation="3" y="-20"/>
+                    <terminal x="16" id="30" orientation="1" y="-20"/>
+                    <terminal x="-16" id="31" orientation="3" y="20"/>
+                    <terminal x="16" id="32" orientation="1" y="20"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element prefix="" x="340" freezeLabel="false" z="10" uuid="{1f29d39a-80df-4b5a-bb1e-0f744db00f40}" type="embed://import/uk/switch-1-way.elmt" orientation="0" y="300">
+                <terminals>
+                    <terminal x="0" id="33" orientation="2" y="-24"/>
+                    <terminal x="0" id="34" orientation="2" y="16"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+        </elements>
+        <conductors>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{d07da8f9-d87d-46e5-b686-a44724b155eb}" function="" conductor_color="" element2="{5189ea81-5599-46a7-bbb1-75dbf691c93f}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{7ca68518-c65f-4ed6-b4f2-5d9b2e51358b}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
+                <segment length="-10" orientation="horizontal"/>
+                <segment length="-290" orientation="horizontal"/>
+                <segment length="215" orientation="vertical"/>
+                <segment length="30" orientation="horizontal"/>
+                <segment length="-10" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{1e8bc84a-78e6-46e6-b1ec-ff5c7ec8ec98}" function="" conductor_color="" element2="{fa7146f6-5f9d-452d-8989-0fc4a3939d16}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{1d5bac72-ed3b-4b4e-b4ea-4593eefb21ac}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{6c1d4921-762c-4881-8177-21cde5470c5c}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="intermediate-switch" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{5189ea81-5599-46a7-bbb1-75dbf691c93f}" function="" conductor_color="" element2="{1e8bc84a-78e6-46e6-b1ec-ff5c7ec8ec98}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" element2_label="" element2_name="intermediate-switch" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{2ee755ef-c2c3-454f-967a-aa1e5447d2b3}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{7b5aefdf-5b19-4a6b-b173-0e5e71aa8295}" function="" conductor_color="" element2="{75767f7c-8012-434c-8255-be8bd58b708f}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{ba3dc657-f057-4384-a829-8d39e545dea0}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{8606d49b-50b7-423c-b422-bb1c44cf7202}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="junction-box-4-way" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{5189ea81-5599-46a7-bbb1-75dbf691c93f}" function="" conductor_color="" element2="{fa7146f6-5f9d-452d-8989-0fc4a3939d16}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
+                <segment length="10" orientation="horizontal"/>
+                <segment length="70" orientation="vertical"/>
+                <segment length="170" orientation="horizontal"/>
+                <segment length="0" orientation="horizontal"/>
+                <segment length="170" orientation="horizontal"/>
+                <segment length="-70" orientation="vertical"/>
+                <segment length="10" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{5189ea81-5599-46a7-bbb1-75dbf691c93f}" function="" conductor_color="" element2="{d07da8f9-d87d-46e5-b686-a44724b155eb}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{6c1d4921-762c-4881-8177-21cde5470c5c}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{a6a57e12-7de2-418c-a120-56a909f97cf4}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
+                <segment length="10" orientation="horizontal"/>
+                <segment length="-20" orientation="horizontal"/>
+                <segment length="-145" orientation="vertical"/>
+                <segment length="280" orientation="horizontal"/>
+                <segment length="10" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{5189ea81-5599-46a7-bbb1-75dbf691c93f}" function="" conductor_color="" element2="{1e8bc84a-78e6-46e6-b1ec-ff5c7ec8ec98}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{b5cad268-8f84-4a52-af17-88840792116b}" element2_label="" element2_name="intermediate-switch" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{cbb0e503-cb01-4f82-8952-29c63b724be2}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-2-way" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{1e8bc84a-78e6-46e6-b1ec-ff5c7ec8ec98}" function="" conductor_color="" element2="{fa7146f6-5f9d-452d-8989-0fc4a3939d16}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{982849bc-0ae0-4edf-a45c-a6044996915e}" element2_label="" element2_name="switch-2-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{b5cad268-8f84-4a52-af17-88840792116b}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="intermediate-switch" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{75767f7c-8012-434c-8255-be8bd58b708f}" function="" conductor_color="" element2="{d07da8f9-d87d-46e5-b686-a44724b155eb}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{8606d49b-50b7-423c-b422-bb1c44cf7202}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{8606d49b-50b7-423c-b422-bb1c44cf7202}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{75767f7c-8012-434c-8255-be8bd58b708f}" function="" conductor_color="" element2="{1f29d39a-80df-4b5a-bb1e-0f744db00f40}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{7ca68518-c65f-4ed6-b4f2-5d9b2e51358b}" element2_label="" element2_name="switch-1-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{94fc507b-1fc6-42f4-adf4-f934864d28fe}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
+                <segment length="-10" orientation="horizontal"/>
+                <segment length="-200" orientation="horizontal"/>
+                <segment length="165" orientation="vertical"/>
+                <segment length="70" orientation="horizontal"/>
+                <segment length="-10" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{1f29d39a-80df-4b5a-bb1e-0f744db00f40}" function="" conductor_color="" element2="{75767f7c-8012-434c-8255-be8bd58b708f}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{38d58deb-4b33-417b-89d0-aef5738e47fb}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{a6a57e12-7de2-418c-a120-56a909f97cf4}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="switch-1-way" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{34dabeab-0da4-4ca7-bafd-aa9425d80c72}" function="" conductor_color="" element2="{7b5aefdf-5b19-4a6b-b173-0e5e71aa8295}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{57d9f653-bd0e-4b41-aefc-b116508fe273}" element2_label="" element2_name="junction-box-4-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{0b73e0cc-f21d-424c-8dc1-3b5fbd56a9d6}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="feed-single-phase-v2" onetextperfolio="0">
+                <segment length="-10" orientation="vertical"/>
+                <segment length="-390" orientation="vertical"/>
+                <segment length="3" orientation="horizontal"/>
+                <segment length="0" orientation="horizontal"/>
+                <segment length="-10" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{7b5aefdf-5b19-4a6b-b173-0e5e71aa8295}" function="" conductor_color="" element2="{75767f7c-8012-434c-8255-be8bd58b708f}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{0b73e0cc-f21d-424c-8dc1-3b5fbd56a9d6}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{4c6c2935-bcef-4ff9-9c33-941347d79198}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="junction-box-4-way" onetextperfolio="0">
+                <segment length="10" orientation="vertical"/>
+                <segment length="100" orientation="horizontal"/>
+                <segment length="-40" orientation="vertical"/>
+                <segment length="240" orientation="horizontal"/>
+                <segment length="-5" orientation="vertical"/>
+                <segment length="10" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{75767f7c-8012-434c-8255-be8bd58b708f}" function="" conductor_color="" element2="{d07da8f9-d87d-46e5-b686-a44724b155eb}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{f116fef9-e688-4660-9ce9-35bbb78429c1}" element2_label="" element2_name="pendent-loop" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{f116fef9-e688-4660-9ce9-35bbb78429c1}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#dd3939" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="pendent-loop" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor color2="#000000" vertical-alignment="AlignRight" horizontal-alignment="AlignBottom" bicolor="false" displaytext="1" element1="{34dabeab-0da4-4ca7-bafd-aa9425d80c72}" function="" conductor_color="" element2="{7b5aefdf-5b19-4a6b-b173-0e5e71aa8295}" y="0" terminalname1="" conductor_section="" terminalname2="" type="multi" cable="" num="" terminal1="{19465668-c5f6-4e79-9c8c-024bcc79df60}" element2_label="" element2_name="junction-box-4-way" dash-size="2" text_color="#000000" condsize="3" vertirotatetext="270" terminal2="{ba3dc657-f057-4384-a829-8d39e545dea0}" formula="" horizrotatetext="0" x="0" tension_protocol="" color="#0d06cb" bus="" numsize="7" freezeLabel="false" element1_label="" element1_name="feed-single-phase-v2" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+        </conductors>
     </diagram>
     <collection>
         <category name="import">
@@ -618,7 +818,7 @@
                     <name lang="en">uk-electrical-symbols</name>
                 </names>
                 <element name="feed-single-phase-v2.elmt">
-                    <definition type="element" version="0.100.0" hotspot_y="36" width="90" hotspot_x="45" height="70" link_type="simple">
+                    <definition hotspot_y="36" width="90" hotspot_x="45" link_type="simple" version="0.100.0" type="element" height="70">
                         <uuid uuid="{8096637a-e7bf-4b97-b913-ac185a8602e8}"/>
                         <names>
                             <name lang="en">feed-single-phase-v2</name>
@@ -626,18 +826,18 @@
                         <elementInformations/>
                         <informations/>
                         <description>
-                            <rect rx="0" antialias="false" ry="0" x="-40" y="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" width="80" height="60"/>
-                            <rect rx="0" antialias="false" ry="0" x="20" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" height="30"/>
-                            <rect rx="0" antialias="false" ry="0" x="-10" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" width="15" height="40"/>
-                            <rect rx="0" antialias="false" ry="0" x="-35" y="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" height="5"/>
-                            <terminal type="Generic" name="" x="25" orientation="n" y="-10" uuid="{f89cc199-9475-4bc8-bcb6-b3f53f326875}"/>
-                            <terminal type="Generic" name="" x="-3" orientation="n" y="-20" uuid="{57d9f653-bd0e-4b41-aefc-b116508fe273}"/>
-                            <terminal type="Generic" name="" x="-25" orientation="n" y="-30" uuid="{19465668-c5f6-4e79-9c8c-024bcc79df60}"/>
+                            <rect width="80" x="-40" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="60" y="-30"/>
+                            <rect width="10" x="20" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="30" y="-10"/>
+                            <rect width="15" x="-10" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="40" y="-20"/>
+                            <rect width="20" x="-35" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="5" y="-30"/>
+                            <terminal name="" x="25" uuid="{f89cc199-9475-4bc8-bcb6-b3f53f326875}" type="Generic" orientation="n" y="-10"/>
+                            <terminal name="" x="-3" uuid="{57d9f653-bd0e-4b41-aefc-b116508fe273}" type="Generic" orientation="n" y="-20"/>
+                            <terminal name="" x="-25" uuid="{19465668-c5f6-4e79-9c8c-024bcc79df60}" type="Generic" orientation="n" y="-30"/>
                         </description>
                     </definition>
                 </element>
                 <element name="switch-2-way.elmt">
-                    <definition type="element" version="0.100.0" hotspot_y="45" width="90" hotspot_x="45" height="90" link_type="simple">
+                    <definition hotspot_y="45" width="90" hotspot_x="45" link_type="simple" version="0.100.0" type="element" height="90">
                         <uuid uuid="{1a0b3658-0a10-451a-9af8-6bf5e2f95f32}"/>
                         <names>
                             <name lang="en">switch-2-way</name>
@@ -645,19 +845,19 @@
                         <elementInformations/>
                         <informations/>
                         <description>
-                            <rect rx="0" antialias="false" ry="0" x="-40" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" width="80" height="80"/>
-                            <circle diameter="10" antialias="false" x="-5" y="-25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-                            <circle diameter="10" antialias="false" x="-25" y="15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-                            <circle diameter="10" antialias="false" x="15" y="15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-                            <line x1="-1" antialias="false" x2="-14" length2="1.5" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="24" end2="none" y1="-15"/>
-                            <terminal type="Generic" name="" x="20" orientation="s" y="20" uuid="{6c1d4921-762c-4881-8177-21cde5470c5c}"/>
-                            <terminal type="Generic" name="" x="0" orientation="s" y="-20" uuid="{642bd481-7f44-4a4a-b56c-1d18b975fed6}"/>
-                            <terminal type="Generic" name="" x="-20" orientation="s" y="20" uuid="{b5cad268-8f84-4a52-af17-88840792116b}"/>
+                            <rect width="80" x="-40" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="80" y="-40"/>
+                            <circle diameter="10" x="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
+                            <circle diameter="10" x="-25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15"/>
+                            <circle diameter="10" x="15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15"/>
+                            <line length2="1.5" antialias="false" x1="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" end1="none" x2="-14" y2="24" y1="-15"/>
+                            <terminal name="" x="20" uuid="{6c1d4921-762c-4881-8177-21cde5470c5c}" type="Generic" orientation="s" y="20"/>
+                            <terminal name="" x="0" uuid="{642bd481-7f44-4a4a-b56c-1d18b975fed6}" type="Generic" orientation="s" y="-20"/>
+                            <terminal name="" x="-20" uuid="{b5cad268-8f84-4a52-af17-88840792116b}" type="Generic" orientation="s" y="20"/>
                         </description>
                     </definition>
                 </element>
                 <element name="pendent-loop.elmt">
-                    <definition type="element" version="0.100.0" hotspot_y="65" width="130" hotspot_x="65" height="130" link_type="simple">
+                    <definition hotspot_y="65" width="130" hotspot_x="65" link_type="simple" version="0.100.0" type="element" height="130">
                         <uuid uuid="{d03d1999-fc27-4b28-a66d-61a0a620c0e0}"/>
                         <names>
                             <name lang="en">pendent-loop</name>
@@ -665,23 +865,23 @@
                         <elementInformations/>
                         <informations/>
                         <description>
-                            <circle diameter="120" antialias="false" x="-60" y="-60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-                            <rect rx="0" antialias="false" ry="0" x="-20" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="20"/>
-                            <rect rx="0" antialias="false" ry="0" x="-50" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" height="20"/>
-                            <rect rx="0" antialias="false" ry="0" x="30" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" height="20"/>
-                            <terminal type="Generic" name="" x="-45" orientation="s" y="10" uuid="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}"/>
-                            <terminal type="Generic" name="" x="5" orientation="s" y="10" uuid="{f116fef9-e688-4660-9ce9-35bbb78429c1}"/>
-                            <terminal type="Generic" name="" x="-35" orientation="s" y="10" uuid="{8606d49b-50b7-423c-b422-bb1c44cf7202}"/>
-                            <terminal type="Generic" name="" x="-15" orientation="s" y="10" uuid="{3a664f7e-5f79-46ec-ac00-437431af6325}"/>
-                            <terminal type="Generic" name="" x="15" orientation="s" y="10" uuid="{7ca68518-c65f-4ed6-b4f2-5d9b2e51358b}"/>
-                            <terminal type="Generic" name="" x="45" orientation="s" y="10" uuid="{a6a57e12-7de2-418c-a120-56a909f97cf4}"/>
-                            <terminal type="Generic" name="" x="-5" orientation="s" y="10" uuid="{4c6c2935-bcef-4ff9-9c33-941347d79198}"/>
-                            <terminal type="Generic" name="" x="35" orientation="s" y="10" uuid="{71448bcd-3300-4182-8f5b-508694c2d0b4}"/>
+                            <circle diameter="120" x="-60" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60"/>
+                            <rect width="40" x="-20" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="20" y="-10"/>
+                            <rect width="20" x="-50" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="20" y="-10"/>
+                            <rect width="20" x="30" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="20" y="-10"/>
+                            <terminal name="" x="-45" uuid="{d797bed9-6ab0-46fe-ba66-64560fa37aa3}" type="Generic" orientation="s" y="10"/>
+                            <terminal name="" x="5" uuid="{f116fef9-e688-4660-9ce9-35bbb78429c1}" type="Generic" orientation="s" y="10"/>
+                            <terminal name="" x="-35" uuid="{8606d49b-50b7-423c-b422-bb1c44cf7202}" type="Generic" orientation="s" y="10"/>
+                            <terminal name="" x="-15" uuid="{3a664f7e-5f79-46ec-ac00-437431af6325}" type="Generic" orientation="s" y="10"/>
+                            <terminal name="" x="15" uuid="{7ca68518-c65f-4ed6-b4f2-5d9b2e51358b}" type="Generic" orientation="s" y="10"/>
+                            <terminal name="" x="45" uuid="{a6a57e12-7de2-418c-a120-56a909f97cf4}" type="Generic" orientation="s" y="10"/>
+                            <terminal name="" x="-5" uuid="{4c6c2935-bcef-4ff9-9c33-941347d79198}" type="Generic" orientation="s" y="10"/>
+                            <terminal name="" x="35" uuid="{71448bcd-3300-4182-8f5b-508694c2d0b4}" type="Generic" orientation="s" y="10"/>
                         </description>
                     </definition>
                 </element>
                 <element name="switch-intermediate.elmt">
-                    <definition type="element" version="0.100.0" hotspot_y="45" width="90" hotspot_x="45" height="90" link_type="simple">
+                    <definition hotspot_y="45" width="90" hotspot_x="45" link_type="simple" version="0.100.0" type="element" height="90">
                         <uuid uuid="{765c8486-41a4-4fe8-b01f-3622f67fa89c}"/>
                         <names>
                             <name lang="en">intermediate-switch</name>
@@ -689,22 +889,22 @@
                         <elementInformations/>
                         <informations/>
                         <description>
-                            <rect rx="0" antialias="false" ry="0" x="-40" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" width="80" height="80"/>
-                            <circle diameter="10" antialias="false" x="-25" y="-25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-                            <circle diameter="10" antialias="false" x="15" y="-25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-                            <circle diameter="10" antialias="false" x="-25" y="15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-                            <circle diameter="10" antialias="false" x="15" y="15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-                            <line x1="-15" antialias="false" x2="15" length2="1.5" end1="none" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:gray" y2="15" end2="none" y1="-15"/>
-                            <line x1="-15" antialias="false" x2="15" length2="1.5" end1="none" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:gray" y2="-15" end2="none" y1="15"/>
-                            <terminal type="Generic" name="" x="20" orientation="e" y="-20" uuid="{982849bc-0ae0-4edf-a45c-a6044996915e}"/>
-                            <terminal type="Generic" name="" x="-20" orientation="w" y="-20" uuid="{2ee755ef-c2c3-454f-967a-aa1e5447d2b3}"/>
-                            <terminal type="Generic" name="" x="20" orientation="e" y="20" uuid="{1d5bac72-ed3b-4b4e-b4ea-4593eefb21ac}"/>
-                            <terminal type="Generic" name="" x="-20" orientation="w" y="20" uuid="{cbb0e503-cb01-4f82-8952-29c63b724be2}"/>
+                            <rect width="80" x="-40" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="80" y="-40"/>
+                            <circle diameter="10" x="-25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
+                            <circle diameter="10" x="15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
+                            <circle diameter="10" x="-25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15"/>
+                            <circle diameter="10" x="15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15"/>
+                            <line length2="1.5" antialias="false" x1="-15" style="line-style:dashed;line-weight:normal;filling:none;color:gray" end2="none" length1="1.5" end1="none" x2="15" y2="15" y1="-15"/>
+                            <line length2="1.5" antialias="false" x1="-15" style="line-style:dashed;line-weight:normal;filling:none;color:gray" end2="none" length1="1.5" end1="none" x2="15" y2="-15" y1="15"/>
+                            <terminal name="" x="20" uuid="{982849bc-0ae0-4edf-a45c-a6044996915e}" type="Generic" orientation="e" y="-20"/>
+                            <terminal name="" x="-20" uuid="{2ee755ef-c2c3-454f-967a-aa1e5447d2b3}" type="Generic" orientation="w" y="-20"/>
+                            <terminal name="" x="20" uuid="{1d5bac72-ed3b-4b4e-b4ea-4593eefb21ac}" type="Generic" orientation="e" y="20"/>
+                            <terminal name="" x="-20" uuid="{cbb0e503-cb01-4f82-8952-29c63b724be2}" type="Generic" orientation="w" y="20"/>
                         </description>
                     </definition>
                 </element>
                 <element name="waygo-2-way.elmt">
-                    <definition type="element" hotspot_y="15" version="0.100.0" width="40" hotspot_x="14" height="30" link_type="simple">
+                    <definition hotspot_y="15" width="40" hotspot_x="14" link_type="simple" version="0.100.0" type="element" height="30">
                         <uuid uuid="{da8f5241-20d4-499f-a6b8-90e6404b1294}"/>
                         <names>
                             <name lang="en">waygo-2-way</name>
@@ -712,31 +912,31 @@
                         <elementInformations/>
                         <informations/>
                         <description>
-                            <rect rx="0" antialias="false" ry="0" x="-10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" height="10"/>
-                            <rect rx="0" antialias="false" ry="0" x="-10" y="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" height="10"/>
-                            <rect rx="0" antialias="false" ry="0" x="10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" height="20"/>
-                            <terminal type="Generic" name="" x="15" orientation="w" y="-5" uuid="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}"/>
-                            <terminal type="Generic" name="" x="15" orientation="w" y="5" uuid="{d62accf7-46c4-4af8-a772-4fbfb7fcfb2d}"/>
+                            <rect width="30" x="-10" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="10" y="-10"/>
+                            <rect width="30" x="-10" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="10" y="0"/>
+                            <rect width="10" x="10" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="20" y="-10"/>
+                            <terminal name="" x="15" uuid="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" type="Generic" orientation="w" y="-5"/>
+                            <terminal name="" x="15" uuid="{d62accf7-46c4-4af8-a772-4fbfb7fcfb2d}" type="Generic" orientation="w" y="5"/>
                         </description>
                     </definition>
                 </element>
                 <element name="waygo-1-way.elmt">
-                    <definition type="element" hotspot_y="10" version="0.100.0" width="40" hotspot_x="19" height="20" link_type="simple">
+                    <definition hotspot_y="10" width="40" hotspot_x="19" link_type="simple" version="0.100.0" type="element" height="20">
                         <uuid uuid="{b4f288e6-e941-4236-9efb-0ead4f6080c2}"/>
                         <names>
                             <name lang="en">waygo-2-way</name>
                         </names>
                         <elementInformations/>
-                        <informations></informations>
+                        <informations/>
                         <description>
-                            <rect rx="0" antialias="false" ry="0" x="-15" y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" height="10"/>
-                            <rect rx="0" antialias="false" ry="0" x="5" y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" height="10"/>
-                            <terminal type="Generic" name="" x="10" orientation="w" y="0" uuid="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}"/>
+                            <rect width="30" x="-15" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="10" y="-5"/>
+                            <rect width="10" x="5" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="10" y="-5"/>
+                            <terminal name="" x="10" uuid="{afe00bff-c9ec-47e3-a4dc-cf5872a5939d}" type="Generic" orientation="w" y="0"/>
                         </description>
                     </definition>
                 </element>
                 <element name="waygo-1-way1.elmt">
-                    <definition type="element" hotspot_y="10" version="0.100.0" width="50" hotspot_x="24" height="20" link_type="simple">
+                    <definition hotspot_y="10" width="50" hotspot_x="24" link_type="simple" version="0.100.0" type="element" height="20">
                         <uuid uuid="{e9565ed8-ac1f-449a-975c-77b8fb55df7d}"/>
                         <names>
                             <name lang="en">waygo-1-way</name>
@@ -744,9 +944,71 @@
                         <elementInformations/>
                         <informations/>
                         <description>
-                            <rect rx="0" antialias="false" ry="0" x="-20" y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="10"/>
-                            <rect rx="0" antialias="false" ry="0" x="10" y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" height="10"/>
-                            <terminal type="Generic" name="" x="15" orientation="w" y="0" uuid="{c5b7ec21-ed06-4038-b19a-6393a80ce870}"/>
+                            <rect width="40" x="-20" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="10" y="-5"/>
+                            <rect width="10" x="10" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="10" y="-5"/>
+                            <terminal name="" x="15" uuid="{c5b7ec21-ed06-4038-b19a-6393a80ce870}" type="Generic" orientation="w" y="0"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="junction-box-4-way.elmt">
+                    <definition hotspot_y="35" width="70" hotspot_x="35" link_type="simple" version="0.100.0" type="element" height="70">
+                        <uuid uuid="{ac97a8a9-e25e-4057-aa3e-e6d8815f3096}"/>
+                        <names>
+                            <name lang="en">junction-box-4-way</name>
+                        </names>
+                        <elementInformations/>
+                        <informations/>
+                        <description>
+                            <circle diameter="60" x="-30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-30"/>
+                            <circle diameter="10" x="-25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5"/>
+                            <circle diameter="10" x="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
+                            <circle diameter="10" x="15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5"/>
+                            <circle diameter="10" x="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15"/>
+                            <terminal name="" x="0" uuid="{e02af361-55c3-4597-92f4-ff37dee7b6a9}" orientation="n" type="Generic" y="-20"/>
+                            <terminal name="" x="20" uuid="{f66ddd1a-db46-46b5-8363-864d6266ed2f}" orientation="e" type="Generic" y="0"/>
+                            <terminal name="" x="-20" uuid="{ba3dc657-f057-4384-a829-8d39e545dea0}" orientation="w" type="Generic" y="0"/>
+                            <terminal name="" x="0" uuid="{0b73e0cc-f21d-424c-8dc1-3b5fbd56a9d6}" orientation="s" type="Generic" y="20"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="switch-1-way.elmt">
+                    <definition hotspot_y="45" width="70" hotspot_x="35" link_type="simple" version="0.100.0" type="element" height="90">
+                        <uuid uuid="{4f04372d-c0c2-4e9b-9aac-494eb98af809}"/>
+                        <names>
+                            <name lang="en">switch-1-way</name>
+                        </names>
+                        <elementInformations/>
+                        <informations/>
+                        <description>
+                            <rect width="60" x="-30" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="80" y="-40"/>
+                            <circle diameter="10" x="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
+                            <circle diameter="10" x="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15"/>
+                            <line length2="1.5" antialias="false" end2="none" x1="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" x2="-10" y2="20" y1="-15"/>
+                            <terminal name="" x="0" uuid="{94fc507b-1fc6-42f4-adf4-f934864d28fe}" orientation="s" type="Generic" y="-20"/>
+                            <terminal name="" x="0" uuid="{38d58deb-4b33-417b-89d0-aef5738e47fb}" orientation="s" type="Generic" y="20"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="intermediate-switch.elmt">
+                    <definition hotspot_y="45" width="90" hotspot_x="45" link_type="simple" version="0.100.0" type="element" height="90">
+                        <uuid uuid="{e02f6538-1bbb-47d2-81fe-c518dfd6f107}"/>
+                        <names>
+                            <name lang="en">intermediate-switch</name>
+                        </names>
+                        <elementInformations/>
+                        <informations/>
+                        <description>
+                            <rect width="80" x="-40" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="80" y="-40"/>
+                            <circle diameter="10" x="-25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
+                            <circle diameter="10" x="15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
+                            <circle diameter="10" x="-25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15"/>
+                            <circle diameter="10" x="15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15"/>
+                            <line length2="1.5" antialias="false" end2="none" x1="-15" style="line-style:dashed;line-weight:normal;filling:none;color:gray" length1="1.5" end1="none" x2="15" y2="15" y1="-15"/>
+                            <line length2="1.5" antialias="false" end2="none" x1="-15" style="line-style:dashed;line-weight:normal;filling:none;color:gray" length1="1.5" end1="none" x2="15" y2="-15" y1="15"/>
+                            <terminal name="" x="20" uuid="{982849bc-0ae0-4edf-a45c-a6044996915e}" orientation="e" type="Generic" y="-20"/>
+                            <terminal name="" x="-20" uuid="{2ee755ef-c2c3-454f-967a-aa1e5447d2b3}" orientation="w" type="Generic" y="-20"/>
+                            <terminal name="" x="20" uuid="{1d5bac72-ed3b-4b4e-b4ea-4593eefb21ac}" orientation="e" type="Generic" y="20"/>
+                            <terminal name="" x="-20" uuid="{cbb0e503-cb01-4f82-8952-29c63b724be2}" orientation="w" type="Generic" y="20"/>
                         </description>
                     </definition>
                 </element>
